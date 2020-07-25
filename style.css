@@ -86,51 +86,81 @@ body{
         min-height: 100vh;
 
     }
-    .container-large{
-        padding: 10%;
-        flex: 1 1 80%;
-        min-height: 100vh;
-
-    }
-    .items{
+    .items {
         display: grid;
         height: 100%;
-        grid-template-rows: repeat(7, 1fr);
+        grid-template-rows: repeat(8, 1fr);
         grid-template-columns: repeat(5, 1fr);
         grid-gap: 20px;
-       
-    }
-    .box{
-        width: 1fr;
-        /* font-size: 1.5em; */
-        /* background-size: cover; */
-        /* background-position: top left; */
-        /* transition: all ease-in-out 300ms; */
-        /* position: relative; */
-        /* z-index: 10; */
-    }
-    /* .box1{
-        grid-row: span 3;
-        grid-column: span 3;
-    }
-    .box2{
-        grid-row: span 2;
-        grid-column: span 4;
-    }
-    .box3{
-        grid-row: span 4;
-        grid-column: span 3;
-    }
-    .box4{
-        grid-row: span 4;
-        grid-column: span 3;
-    }
-    .box5{
-        grid-row: span 4;
-        grid-column: span 3;
-    }
-    .box6{
-        grid-row: span 4;
-        grid-column: span 3;
-    } */
+      }
+      
+      .box {
+        /* background: $accent;
+        color: $light-gray;
+        font-weight: $font-bold; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        font-size: 1.5em;
+        background-size: cover;
+        background-position: top left;
+        transition: all ease-in-out 300ms;
+        position: relative;
+        z-index: 10;
+        
+        /* &.small {
+          grid-row: span 1;
+          grid-column: span 1;
+        }
+        
+        &.medium {
+          grid-row: span 2;
+          grid-column: span 2;
+        }
+        
+        &.large {
+          grid-row: span 3;
+          grid-column: span 3;
+        }
+        
+        &.tall {
+          grid-row: span 3;
+          grid-column: span 2;
+        }
+        
+        &.wide {
+          grid-row: span 2;
+          grid-column: span 3;
+        }
+          
+        &:hover {
+          color: white;
+          text-shadow: 0 0 5px rgba(0, 0, 0, 0.85);
+        }*/
+      }
+      
+      /*.two {
+        background-image: url(//unsplash.it/800/600);
+        
+        &::before {
+          content: '';
+          display: block;
+          background: $black;
+          opacity: 0.8;
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          transition: all ease-in-out 300ms;
+          z-index: -1;
+        }
+        
+        &:hover::before {
+          opacity: 0.2;
+        }
+      } */
+      
+      
 }
